@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://kit.fontawesome.com/fceadaefb5.js" crossorigin="anonymous"></script>
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <title>iPhone X Calculator</title>
+</head>
+<body class="bg-black">
+  <main>
+    <article class="phone">
+      <header class="text-white text-xs font-sans m-2">
+        <div class="left absolute">
+          <p>9:41</p>
+        </div>
+        <div class="right float-right">
+          <i class="fas fa-signal mr-1"></i>
+          <i class="fas fa-wifi mr-1"></i>
+          <i class="fas fa-battery-full mr-1"></i>
+        </div>
+      </header>
+      <section class="calculator m-2">
+        <input class="bg-black text-white border-none outline-none text-6xl text-right font-thin font-sans h-32 w-full mb-2" maxLength="6" id="display" value="0"/>
+        <div class="buttons">
+          <div class="flex flex-row">
+            <button class="bg-gray-600 text-gray-800 w-1/4 white w-1/4 rounded-full h-16 mr-2 mb-2 btn">AC</button>
+            <button class="bg-gray-600 text-gray-800 w-1/4 white w-1/4 rounded-full h-16 mr-2 mb-2 btn">+/-</button>
+            <button class="bg-gray-600 text-gray-800 w-1/4 white w-1/4 rounded-full h-16 mr-2 mb-2 btn">%</button>
+            <button class="bg-orange-500 text-white w-1/4 white w-1/4 rounded-full h-16 mb-2 btn">÷</button>
+          </div>
+          <div class="flex flex-row">
+            <button class="bg-gray-800 text-white w-1/4 rounded-full h-16 mr-2 mb-2 btn">7</button>
+            <button class="bg-gray-800 text-white w-1/4 rounded-full h-16 mr-2 mb-2 btn">8</button>
+            <button class="bg-gray-800 text-white w-1/4 rounded-full h-16 mr-2 mb-2 btn">9</button>
+            <button class="bg-gray-800 text-white w-1/4 rounded-full h-16 mb-2 btn">x</button>
+          </div>
+          <div class="flex flex-row">
+            <button class="bg-gray-800 text-white w-1/4 rounded-full h-16 mr-2 mb-2 btn">4</button>
+            <button class="bg-gray-800 text-white w-1/4 rounded-full h-16 mr-2 mb-2 btn">5</button>
+            <button class="bg-gray-800 text-white w-1/4 rounded-full h-16 mr-2 mb-2 btn">6</button>
+            <button class="bg-orange-500 text-white w-1/4 rounded-full h-16 mb-2 btn">-</button>
+          </div>
+          <div class="flex flex-row">
+            <button class="bg-gray-800 text-white w-1/4 rounded-full h-16 mr-2 mb-2 btn">1</button>
+            <button class="bg-gray-800 text-white w-1/4 rounded-full h-16 mr-2 mb-2 btn">2</button>
+            <button class="bg-gray-800 text-white w-1/4 rounded-full h-16 mr-2 mb-2 btn">3</button>
+            <button class="bg-orange-500 text-white w-1/4 rounded-full h-16 mb-2 btn">+</button>
+          </div>
+          <div class="flex flex-row">
+            <button class="bg-gray-800 text-white w-1/2 text-left p1-6 rounded-full h-16 mr-2 mb-2 btn">0</button>
+            <button class="bg-gray-800 text-white w-1/4 rounded-full h-16 mr-2 mb-2 btn">.</button>
+            <button class="bg-orange-500 text-white w-1/4 rounded-full h-16mb-2 btn">=</button>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <button class="home bg-gray-800 w-24 h-1 block m-auto rounded mb-2 mt-8">button
+        </button>
+      </footer>
+    </article>
+  </main>
+</body>
+</html>
